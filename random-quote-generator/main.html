@@ -3,11 +3,22 @@
 
 <head>
     <title>Random Quote Generator</title>
+
+    <style>
+        button
+        {
+            border-radius: 5px; 
+            width: 100px; 
+            height: 45px; 
+            margin: 10px; 
+            background-color: aqua;
+        }
+    </style>
 </head>
 
-<body>
-    <h1>Random Quote Generator</h1>
-    <p id="quote"></p>
+<body style="background-color: black;">
+    <h1 style="color: aqua;">Random Quote Generator</h1>
+    <p id="quote" style="color: white; font-size: 150%;"></p>
     <button onclick="generateQuote()">Generate Quote</button>
     <script src="index.js"></script>
 </body>
