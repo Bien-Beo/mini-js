@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'PermanentMarker Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/Permanent_Marker/PermanentMarker-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: "PermanentMarker Regular", system-ui;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: salmon;
+}
