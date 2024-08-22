@@ -32,5 +32,5 @@ function updateTestimonial() {
         idx = 0;
     setTimeout(() => {
         updateTestimonial();
-    }, 2000);
+    }, 10000);
 };
