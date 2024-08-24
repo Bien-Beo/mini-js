@@ -4,7 +4,8 @@ body {
     justify-content: center;
     height: 100vh;
     align-items: center;
-    font-family: cursive;background-color: slateblue;
+    font-family: cursive;
+    background-color: slateblue;
 }
 
 .calendar-container {

@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.timer {
+    padding: 30px;
+    width: 300px;
+    font-size: 5em;
+}
+
+.container-btn .btn {
+    font-size: 1em;
+    padding: 10px 25px;
+    margin-inline: 25px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px black;
+    color: white;
+    font-family: cursive;
+}
+
+.start {
+    background-color: limegreen;
+}
+
+.stop {
+    background-color: red;
+}
+
+.reset {
+    background-color: gray;
+}
+
+.start:hover,
+.stop:hover,
+.reset:hover {
+    cursor: pointer;
+    filter: brightness(1.5);
+}
