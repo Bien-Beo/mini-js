@@ -1,0 +1,5 @@
+@media (max-width: 991px) {
+   .trailer-container video {
+    max-width: 90%;
+   } 
+}
